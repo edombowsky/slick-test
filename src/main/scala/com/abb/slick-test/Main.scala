@@ -1,10 +1,10 @@
-import com.typesafe.scalalogging._
-import freeslick.OracleProfile.api._
-
 import scala.util.{Success, Failure}
 import scala.concurrent.{Await, Future}
 import scala.concurrent.duration._
 import scala.concurrent.ExecutionContext.Implicits.global
+
+import com.typesafe.scalalogging._
+import freeslick.OracleProfile.api._
 
 object Main extends LazyLogging {
 
